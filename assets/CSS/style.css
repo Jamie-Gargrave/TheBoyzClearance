@@ -43,3 +43,11 @@ body {
 .active {
     border-bottom: 1px solid #1190cb;
 }
+
+#landing-page {
+    background-image: url("/assets/img/the-boyz-van.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: auto;
+}
