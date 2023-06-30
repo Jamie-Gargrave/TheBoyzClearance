@@ -8,5 +8,38 @@
 body {
     font-family: 'Nunito Sans', sans-serif, arial;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+#navlinks img {
+    height: 125px;
+    width: auto;
+    position: absolute;
+    left: 50px;
+}
+
+#navlinks ul {
+    margin-right: 100px;
+    display: flex;
+    justify-content: right;
+    height: 125px;
+}
+
+#navlinks li {
+    display: inline-block;
+    padding: 50px 35px;
+}
+
+#navlinks a {
+    text-decoration: none;
+    color: #1190cb;
+    font-weight: 300;
+}
+
+#navlinks a:hover {
+    border-bottom: 1px solid #1190cb;
+}
+
+.active {
+    border-bottom: 1px solid #1190cb;
 }
