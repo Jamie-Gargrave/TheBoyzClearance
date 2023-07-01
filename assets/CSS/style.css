@@ -77,26 +77,35 @@ body {
 
 #about-more {
     display: flex;
+    height: 500px;
+    width: 100%;
 }
 
-#about-more div {
+#about-more > div {
     display: inline-block;
     height: 500px;
     width: 50%;
-    margin: 5px 40px;
+    margin: 5px 50px;
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #photo {
     background-image: url(/assets/img/business-partners.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 650px;
-    width: auto;
+    height: 500px;
+    width: 50%;
     border-radius: 20px;
+    padding: 0 25px;
+    margin: 0 25%;
 }
 
 .left {
     text-align: left;
+}
+
+.push-over {
+    margin-left: 50px;
 }
